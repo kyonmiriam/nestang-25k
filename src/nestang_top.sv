@@ -42,6 +42,7 @@ module nestang_top (
     output sd_dat1,     // 1
     output sd_dat2,     // 1
     output sd_dat3,     // 1
+    input  sd_cd_n,     // Card Detect
 
     // Dualshock game controller
     output joystick_clk,
@@ -342,6 +343,7 @@ SDLoader #(.FREQ(FREQ)) sd_loader (
     .dout(sd_dout), .dout_valid(sd_dout_valid),
     .sd_clk(sd_clk), .sd_cmd(sd_cmd), .sd_dat0(sd_dat0), .sd_dat1(sd_dat1),
     .sd_dat2(sd_dat2), .sd_dat3(sd_dat3),
+    .sd_cd_n(sd_cd_n),
 
     .debug_reg(sd_debug_reg), .debug_out(sd_debug_out)
 );

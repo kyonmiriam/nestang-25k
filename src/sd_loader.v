@@ -25,6 +25,7 @@ module SDLoader #(
     output sd_dat1,             // 1
     output sd_dat2,             // 1
     output sd_dat3,             // 1
+    input  sd_cd_n,             // Card Detect
     
     // debug
     input [7:0] debug_reg,

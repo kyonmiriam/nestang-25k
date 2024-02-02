@@ -1,5 +1,7 @@
 
 ## Version history for NESTang - an NES emulator for Tang Primer 20K
+v0.8-s, 2/1/2024
+- Supports the Sipeed PMOD-TF CARDv2 (v0.8 was for iCESugar modules).
 
 v0.8, 1/4/2024
 - Supports the Sipeed Tang SDRAM v1.2 modules (v0.8rc was for MiSTer SDRAM 3.0 modules).
